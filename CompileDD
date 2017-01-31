@@ -1,0 +1,5 @@
+#!/bin/bash
+#yasm -f bin -o Temp/$1.bin $1.asm
+#dd if=Temp/$1.bin of=/dev/sdd bs=512 count=1 conv=notrunc
+yasm -f bin -o Temp/FirstStage.bin FirstStage.asm
+dd if=Temp/FirstStage.bin of=/dev/sdd bs=512 count=1 conv=notrunc
