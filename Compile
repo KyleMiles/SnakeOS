@@ -1,0 +1,3 @@
+#!/bin/bash
+#yasm -f bin -o Temp/SNAKEOS.SYS $1.asm
+yasm -f bin -o Temp/SNAKEOS.SYS SecondStage.asm
