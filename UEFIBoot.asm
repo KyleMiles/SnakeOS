@@ -3,10 +3,12 @@
 ;   UEFIBoot.asm 2.0         ;
 ;    - My First Bootloader   ;
 ;                            ;
-;	SnakeOS                  ;
+;	SnakeOS                    ;
 ;    - Kyle Martin           ;
 ;                            ;
 ;############################;
+
+;This is an attempt to code a UEFI disk, bit by bit, manually.
 
 ;Disk Layout Levels (ONE LEVEL = 512 BYTES):
 ; 0:  Protective MBR
